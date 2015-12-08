@@ -1,0 +1,51 @@
+.hero {
+  background-color: $brand-violet;
+  text-align: center;
+  @include clearfix();
+  color: #fff;
+  text-transform: uppercase;
+  padding: 65px 0;
+  
+  .hero-logo {
+    margin-bottom: 55px;
+  }
+
+  .img-responsive {
+    max-width: 80%;
+  }
+
+  @media screen and (min-width: $screen-md-min) {
+    height: 585px;
+  }
+}
+
+.navbar {
+  text-transform: uppercase;
+
+  @media screen and (max-width: $screen-xs-max) {
+    min-height: 55px;
+
+    .navbar-brand {
+      height: 55px;
+      padding-top: 30px;
+      padding-bottom: 10px;
+    }
+
+    .navbar-toggle {
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media (min-width: $screen-sm-min) {
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+}

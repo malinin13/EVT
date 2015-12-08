@@ -1,0 +1,19 @@
+footer {
+  background-color: #000;
+  color: #959595;
+  padding: 35px 0;
+
+  ul {
+    margin: 0;
+
+    ul {
+      @media screen and (min-width: $screen-sm-min) {
+        float: right;
+      }
+    }
+  }
+
+  a {
+    @include custom-link(#959595);
+  }
+}
