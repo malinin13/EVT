@@ -1,0 +1,21 @@
+{
+  "name": "moneywise",
+  "authors": [],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-ui": "~1.11.4",
+    "bootstrap-sass": "~3.3.5",
+    "owl.carousel": "~2.0.0-beta.3"
+  }
+}
