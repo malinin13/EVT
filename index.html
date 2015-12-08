@@ -71,8 +71,49 @@
 <section class="content-section gray-bg">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-sm-6 no-p-r-sm-up">
+                <div class="carousel-widget">
+                    <div class="carousel-widget-description">
+                        <p>
+                            OUR <br class="hidden-xs hidden-sm"/>
+                            HOSPITALITY<br class="hidden-xs hidden-sm"/>
+                            BRANDS
+                        </p>
 
+                        <a href="#" class="more-link hidden-sm">view all</a>
+                    </div>
+                    <div class="carousel-widget-content">
+                        <div class="owl-carousel owl-theme">
+                            <img src="dist/images/carousel-sample.png" alt=""/>
+                            <img src="dist/images/carousel-sample.png" alt=""/>
+                            <img src="dist/images/carousel-sample.png" alt=""/>
+                        </div>
+                    </div>
+
+                    <a href="#" class="more-link-mobile visible-xs visible-sm">view all</a>
+                </div>
+            </div>
+            <div class="col-sm-6 no-p-l-sm-up">
+                <div class="carousel-widget">
+                    <div class="carousel-widget-description">
+                        <p>
+                            OUR <br class="hidden-xs hidden-sm"/>
+                            HOSPITALITY<br class="hidden-xs hidden-sm"/>
+                            BRANDS
+                        </p>
+
+                        <a href="#" class="more-link hidden-sm">view all</a>
+                    </div>
+                    <div class="carousel-widget-content">
+                        <div class="owl-carousel owl-theme">
+                            <img src="dist/images/carousel-sample.png" alt=""/>
+                            <img src="dist/images/carousel-sample.png" alt=""/>
+                            <img src="dist/images/carousel-sample.png" alt=""/>
+                        </div>
+                    </div>
+
+                    <a href="#" class="more-link-mobile visible-xs visible-sm">view all</a>
+                </div>
             </div>
         </div>
     </div>
@@ -100,5 +141,15 @@
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
 <script src="bower_components/owl.carousel/dist/owl.carousel.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.owl-carousel').owlCarousel({
+            items: 1,
+            nav: true,
+            dots: true,
+            navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>']
+        })
+    })
+</script>
 </body>
 </html>

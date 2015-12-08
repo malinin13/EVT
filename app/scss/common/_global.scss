@@ -1,0 +1,17 @@
+.gray-bg {
+  background-color: #ededed;
+}
+
+.content-section {
+  padding: 35px 0 50px;
+}
+
+@media screen and (min-width: $screen-md-min) {
+  .no-p-r-sm-up {
+    padding-right: 0!important;
+  }
+
+  .no-p-l-sm-up {
+    padding-left: 0!important;
+  }
+}

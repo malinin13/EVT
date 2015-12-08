@@ -1,0 +1,115 @@
+.carousel-widget {
+  background-color: #fff;
+
+  a {
+    @include custom-link(#3a3a3a);
+
+    &.more-link {
+      position: absolute;
+      left: 25px;
+      bottom: 25px;
+    }
+  }
+  
+  .carousel-widget-description {
+    font-weight: bold;
+    color: #3a3a3a;
+    padding: 25px 25px 35px;
+    position: relative;
+    
+    p {
+      line-height: 19px;
+    }
+  }
+
+  .owl-theme {
+    .owl-next, .owl-prev {
+      position: absolute;
+      bottom: 0;
+      margin: 0!important;
+      padding: 10px 15px!important;
+      border-radius: 0!important;
+
+      .fa {
+        color: #303030;
+      }
+
+      &.disabled {
+        display: none;
+      }
+    }
+  }
+
+  @media screen and (max-width: $screen-sm-max) {
+    .owl-next, .owl-prev {
+      top: 50%;
+      transform: translateY(-50%);
+      max-height: 34px;
+    }
+
+    .owl-next {
+      right: 0;
+    }
+
+    .owl-prev {
+      left: 0;
+    }
+
+    .owl-dots {
+      position: absolute;
+      bottom: 10px;
+      left: 15px;
+    }
+
+    .more-link-mobile {
+      display: block;
+      width: 100%;
+      font-size: 18px;
+      padding: 20px 0;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+
+  @media screen and (min-width: $screen-md-min) {
+    overflow: hidden;
+
+    @include clearfix();
+
+    .carousel-widget-description, .carousel-widget-content {
+      float: left;
+      height: 230px;
+    }
+
+    .carousel-widget-description {
+      width: 40%;
+    }
+
+    .carousel-widget-content {
+      width: 60%;
+
+      img {
+        height: 230px;
+      }
+
+      .owl-carousel {
+        height: 230px;
+
+        .owl-dots {
+          left: 15px;
+          bottom: 0;
+        }
+
+        .owl-prev {
+          right: 40px;
+        }
+
+        .owl-next {
+          right: 0;
+        }
+
+      }
+    }
+
+  }
+}
