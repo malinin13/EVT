@@ -1,0 +1,43 @@
+$video-section-height: 380px;
+
+.video-section {
+  background-color:  #202020;
+  color: #fff;
+
+  img {
+    width: 100%;
+  }
+
+  .video-section-video, .video-section-description {
+    @media screen and (min-width: $screen-md-min) {
+      height: $video-section-height;
+      overflow: hidden;
+    }
+  }
+
+  .video-section-description {
+    padding: 30px 75px 45px 40px;
+    position: relative;
+
+    h4 {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: bold;
+    }
+
+    p {
+      color: #7f7f7f;
+      font-size: 13px;
+      line-height: 26px;
+    }
+
+    .more-link {
+      position: absolute;
+      left: 40px;
+      bottom: 30px;
+      font-weight: bold;
+
+      @include custom-link(#fff);
+    }
+  }
+}
