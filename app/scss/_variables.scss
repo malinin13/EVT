@@ -25,6 +25,7 @@ $brand-danger:          #d9534f !default;
 $brand-violet-lighter:  #8182a1;
 $brand-violet:          #2c2c44;
 $brand-violet-darker:   #25253b;
+$brand-text-violet:     #505082;
 $brand-orange:          #f2c383;
 //== Scaffolding
 //
@@ -366,7 +367,7 @@ $container-lg:                 $container-large-desktop !default;
 //##
 
 // Basics of a navbar
-$navbar-height:                    85px !default;
+$navbar-height:                    100px !default;
 $navbar-margin-bottom:             0 !default;
 $navbar-border-radius:             0 !default;
 $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
