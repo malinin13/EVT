@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1.0">
+    <title>EVT</title>
+    <link rel="stylesheet" href="dist/style.css"/>
+    <script src="https://use.typekit.net/art7jmm.js"></script>
+    <script>try {
+        Typekit.load({async: true});
+    } catch (e) {
+    }</script>
+</head>
+<body>
+
+<div class="offcanvas-menu navbar navbar-default visible-xs">
+    <div class="offcanvas-body">
+        <ul class="list-unstyled navbar-nav nav">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">OUR BRANDS</a></li>
+            <li><a href="#">investors</a></li>
+            <li><a href="#">CAREERS</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </div>
+</div>
+
+<nav class="navbar navbar-default" id="main-nav">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed offcanvas-handler">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand visible-xs" href="#">
+                <img src="dist/images/logo-mobile.svg" alt="logo"/>
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">HOME</a></li>
+                <li><a href="#">HISTORY</a></li>
+                <li><a href="#">OUR BRANDS</a></li>
+                <li><a href="#" class="logo-li hidden-xs hidden-sm"><img src="dist/images/Main_LOGO.svg" alt="logo"
+                                                                         style="width: 200px"/></a></li>
+                <li><a href="#">investors</a></li>
+                <li><a href="#">CAREERS</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+<section class="gray-bg careers-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="dist/images/photo.png" alt="" class="img-responsive center-block"/>
+            </div>
+            <div class="col-sm-5 col-md-4">
+                <h3>CAREERS</h3>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum.
+                </p>
+
+                <div class="row">
+                    <div class="col-sm-10">
+                        <a href="#" class="btn btn-success btn-lg btn-block">visit totallyintoit.com.au</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="list-inline">
+                    <li>©2015 Event hospitality & entertainment</li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li>|</li>
+                    <li><a href="#">disclaimer</a></li>
+                    <ul class="list-inline">
+                        <li><a href="#">478 GEORGE ST SYDNEY</a></li>
+                        <li>|</li>
+                        <li><a href="#">INFO@EVT.COM</a></li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+<script src="bower_components/owl.carousel/dist/owl.carousel.min.js"></script>
+<script src="dist/js/offcanvas.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.owl-carousel').owlCarousel({
+            items: 1,
+            nav: true,
+            dots: true,
+            navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>']
+        })
+    })
+</script>
+</body>
+</html>
