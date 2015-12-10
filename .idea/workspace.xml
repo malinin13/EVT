@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39b287a1-7036-44c3-8ba0-044e34860948" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/images/photo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scss/layouts/_careers.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/career.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/layouts/_layouts.scss" afterPath="$PROJECT_DIR$/app/scss/layouts/_layouts.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/layouts/_careers.scss" afterPath="$PROJECT_DIR$/app/scss/layouts/_careers.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scss/layouts/_contact-us.scss" afterPath="$PROJECT_DIR$/app/scss/layouts/_contact-us.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/career.html" afterPath="$PROJECT_DIR$/career.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EVT.iws" />
@@ -40,8 +39,8 @@
       <file leaf-file-name="career.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/career.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.375">
-              <caret line="62" column="41" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="41" />
+            <state vertical-scroll-proportion="-2.9583333">
+              <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -57,11 +56,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_careers.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_careers.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scss/layouts/_careers.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20153551">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state vertical-scroll-proportion="-1.875">
+              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="5" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_contact-us.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/scss/layouts/_contact-us.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.37428024">
+              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -113,16 +122,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_global.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scss/common/_global.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.25">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scss/_variables.scss">
           <provider selected="true" editor-type-id="text-editor">
@@ -162,7 +161,6 @@
         <option value="$PROJECT_DIR$/app/scss/components/_offcanvas.scss" />
         <option value="$PROJECT_DIR$/app/scss/common/_global.scss" />
         <option value="$PROJECT_DIR$/app/scss/common/mixins/_mixins.scss" />
-        <option value="$PROJECT_DIR$/app/scss/layouts/_contact-us.scss" />
         <option value="$PROJECT_DIR$/app/scss/partials/_footer.scss" />
         <option value="$PROJECT_DIR$/app/scss/_variables.scss" />
         <option value="$PROJECT_DIR$/contact.html" />
@@ -171,6 +169,7 @@
         <option value="$PROJECT_DIR$/app/scss/layouts/_layouts.scss" />
         <option value="$PROJECT_DIR$/career.html" />
         <option value="$PROJECT_DIR$/app/scss/layouts/_careers.scss" />
+        <option value="$PROJECT_DIR$/app/scss/layouts/_contact-us.scss" />
       </list>
     </option>
   </component>
@@ -502,7 +501,13 @@
       <option name="project" value="LOCAL" />
       <updated>1449775677950</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="career page">
+      <created>1449776758047</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1449776758047</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -551,7 +556,8 @@
     <MESSAGE value="finished page" />
     <MESSAGE value="added mobile offcanvas menu" />
     <MESSAGE value="added contact page" />
-    <option name="LAST_COMMIT_MESSAGE" value="added contact page" />
+    <MESSAGE value="career page" />
+    <option name="LAST_COMMIT_MESSAGE" value="career page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -861,14 +867,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/layouts/_contact-us.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12875536">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/common/mixins/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.375">
@@ -913,8 +911,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/career.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.375">
-          <caret line="62" column="41" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="41" />
+        <state vertical-scroll-proportion="-2.9583333">
+          <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -937,8 +935,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/layouts/_careers.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20153551">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state vertical-scroll-proportion="-1.875">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/layouts/_contact-us.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37428024">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
           <folding />
         </state>
       </provider>
