@@ -14,6 +14,19 @@
 </head>
 <body>
 
+<div class="offcanvas-menu navbar navbar-default visible-xs">
+    <div class="offcanvas-body">
+        <ul class="list-unstyled navbar-nav nav">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">OUR BRANDS</a></li>
+            <li><a href="#">investors</a></li>
+            <li><a href="#">CAREERS</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </div>
+</div>
+
 <section class="hero hidden-xs">
     <div class="container">
         <div class="row">
@@ -25,12 +38,11 @@
     </div>
 </section>
 
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default" id="main-nav">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <button type="button" class="navbar-toggle collapsed offcanvas-handler">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -82,7 +94,7 @@
                             BRANDS
                         </p>
 
-                        <a href="#" class="more-link hidden-sm">view all</a>
+                        <a href="#" class="more-link hidden-sm hidden-xs">view all</a>
                     </div>
                     <div class="carousel-widget-content">
                         <div class="owl-carousel owl-theme">
@@ -104,7 +116,7 @@
                             BRANDS
                         </p>
 
-                        <a href="#" class="more-link hidden-sm">view all</a>
+                        <a href="#" class="more-link hidden-sm hidden-xs">view all</a>
                     </div>
                     <div class="carousel-widget-content">
                         <div class="owl-carousel owl-theme">
@@ -284,13 +296,6 @@
     </div>
 </section>
 
-<section>
-    <div class="container">
-
-    </div>
-</section>
-
-
 <footer>
     <div class="container">
         <div class="row">
@@ -313,6 +318,7 @@
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
 <script src="bower_components/owl.carousel/dist/owl.carousel.min.js"></script>
+<script src="dist/js/offcanvas.js"></script>
 <script>
     $(document).ready(function () {
         $('.owl-carousel').owlCarousel({

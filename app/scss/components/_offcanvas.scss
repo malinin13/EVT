@@ -1,0 +1,42 @@
+@media screen and (max-width: $screen-xs-max) {
+  .offcanvas-menu {
+    width: 200px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    transform: translate3d(200px, 0, 0);
+    z-index: 100;
+    transition: .2s all ease;
+
+    .offcanvas-body {
+      padding: 85px 30px 30px;
+    }
+
+    &.offcanvas-open {
+      transform: translate3d(0, 0, 0);
+    }
+
+  }
+
+  .offcanvas-open {
+    .navbar-default .navbar-toggle .icon-bar {
+      &:nth-child(2) {
+        display: none;
+      }
+      &:nth-child(4) {
+        transform: rotate(45deg);
+        margin: -2px 0px 0px 0;
+      }
+      &:nth-child(3) {
+        transform: rotate(-45deg);
+      }
+    }
+
+    #main-nav {
+      position: relative;
+      z-index: 101;
+      height: 66px;
+    }
+  }
+}
