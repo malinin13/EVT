@@ -1,34 +1,13 @@
 .carousel-widget {
   background-color: #fff;
 
-  a {
-    @include custom-link(#3a3a3a);
-
-    &.more-link {
-      position: absolute;
-      left: 25px;
-      bottom: 25px;
-    }
-  }
-  
-  .carousel-widget-description {
-    font-weight: bold;
-    color: #3a3a3a;
-    padding: 25px 25px 35px;
-    position: relative;
-    
-    p {
-      line-height: 19px;
-    }
-  }
-
   .owl-theme {
     .owl-next, .owl-prev {
       position: absolute;
       bottom: 0;
-      margin: 0!important;
-      padding: 10px 15px!important;
-      border-radius: 0!important;
+      margin: 0 !important;
+      padding: 10px 15px !important;
+      border-radius: 0 !important;
 
       .fa {
         color: #303030;
@@ -38,6 +17,10 @@
         display: none;
       }
     }
+  }
+
+  .owl-dots {
+    position: absolute;
   }
 
   @media screen and (max-width: $screen-sm-max) {
@@ -56,7 +39,6 @@
     }
 
     .owl-dots {
-      position: absolute;
       bottom: 10px;
       left: 15px;
     }

@@ -1,0 +1,22 @@
+.card {
+  font-weight: 500;
+  color: #3a3a3a;
+  padding: 25px 25px 25px;
+  position: relative;
+
+  p {
+    line-height: 19px;
+  }
+
+  a {
+    @include custom-link(#3a3a3a);
+
+    &.more-link {
+      position: absolute;
+      left: 25px;
+      bottom: 25px;
+    }
+  }
+
+
+}

@@ -1,0 +1,69 @@
+.card {
+  &.investor-login {
+    background-color: $brand-violet;
+    color: #fff;
+
+    a {
+      @include custom-link(#fff);
+
+      &.more-link {
+        position: relative;
+        bottom: 0;
+        left: 0;
+      }
+    }
+
+    .actions {
+      position: absolute;
+      left: 25px;
+      bottom: 15px;
+
+      .more-link {
+        margin-bottom: 10px;
+        display: block;
+      }
+    }
+
+    @media screen and (max-width: $screen-xs-max) {
+      ul {
+        a {
+          @include custom-link($brand-violet-lighter);
+          line-height: 24px;
+        }
+      }
+    }
+  }
+
+}
+
+.homepage-news {
+  @media screen and (min-width: $screen-sm-min) {
+    height: 230px;
+  }
+}
+
+&.homepage-news-card {
+  .homepage-news-card-image {
+    height: 60%;
+    background-size: cover;
+  }
+
+  .card {
+    height: 40%;
+    background-color: #fff;
+  }
+}
+
+.section-summary {
+  background-color: #fff;
+  padding: 30px 30px 40px;
+
+  .text-success {
+    font-size: 35px;
+  }
+
+  span {
+    font-size: 22px;
+    font-weight: bold;
+  }
+}
