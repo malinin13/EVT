@@ -10,17 +10,29 @@
     transition: .2s all ease;
 
     .offcanvas-body {
-      padding: 85px 30px 30px;
+      padding: 55px 30px 30px;
     }
 
     &.offcanvas-open {
-      transform: translate3d(0, 0, 0);
+      //transform: translate3d(0, 0, 0);
     }
 
   }
 
+  body {
+    transition: .2s all ease;
+    overflow-x: hidden;
+
+    &.offcanvas-open {
+      transform: translate3d(-200px, 0, 0);
+    }
+  }
+
   .offcanvas-open {
+
     .navbar-default .navbar-toggle .icon-bar {
+      transition: .2s all ease;
+
       &:nth-child(2) {
         display: none;
       }

@@ -21,6 +21,8 @@
 
 .navbar {
   text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 300!important;
 
   @media screen and (max-width: $screen-xs-max) {
     min-height: 55px;

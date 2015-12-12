@@ -28,4 +28,8 @@
   .form-control {
     border-left: 3px solid $brand-success;
   }
+
+  @media screen and (max-width: $screen-xs-max) {
+    padding: 35px 0 55px;
+  }
 }
