@@ -21,19 +21,18 @@ p {
 
 .content-section {
   padding: 35px 0 50px;
+}
 
-  .content-title {
-    letter-spacing: 2px;
-    font-size: 27px;
-    font-weight: 300;
-  }
+.content-title {
+  letter-spacing: 3px;
+  font-size: 27px;
+  font-weight: 300;
+}
 
-  .content-subtitle {
-    letter-spacing: 2px;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 24px;
-  }
+.content-subtitle {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
 }
 
 @media screen and (min-width: $screen-md-min) {

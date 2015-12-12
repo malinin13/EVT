@@ -29,7 +29,7 @@
 .investors-content-section {
   padding: 20px 30px;
 
-  @include custom-select(#fff, 45px, #000, $brand-success);
+  @include custom-select(#fff, 45px, #000, $brand-success, #000);
 
   .select {
     border: 1px solid $hr-border;
@@ -132,4 +132,31 @@
     }
   }
 
+  @media screen and (max-width: $screen-xs-max) {
+    img {
+      display: none;
+    }
+
+    .media-left, .media-body {
+      padding: 0;
+    }
+  }
+
+}
+
+.benefits-section {
+  background-size: cover;
+  color: #fff;
+  padding: 90px 0 70px;
+
+  p {
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  .content-title {
+    margin-top: 0;
+    font-size: 25px;
+  }
+  
 }

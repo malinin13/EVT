@@ -13,7 +13,7 @@
   }
 }
 
-@mixin custom-select($bg-color, $height, $text-color, $arrow-color) {
+@mixin custom-select($bg-color, $height, $text-color, $arrow-color, $color: $input-color-placeholder) {
   .select {
     position: relative;
     background-color: $bg-color;
@@ -31,7 +31,7 @@
       -moz-appearance: none;
       appearance: none;
       outline: none;
-      color: $input-color-placeholder;
+      color: $color;
       z-index: 1;
       font-size: 16px;
     }
