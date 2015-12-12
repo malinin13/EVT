@@ -16,6 +16,9 @@
     a {
       padding-top: 0;
       padding-bottom: 0;
+      font-weight: bold;
+
+      @include custom-link($gray-dark)
     }
 
     &.active {
@@ -27,18 +30,37 @@
 }
 
 .investors-content-section {
-  padding: 20px 30px;
-
-  @include custom-select(#fff, 45px, #000, $brand-success, #000);
 
   .select {
     border: 1px solid $hr-border;
-    width: 100px;
-    float: right;
   }
 
-  .card {
-    font-weight: 300;
+  @media screen and (min-width: $screen-sm-min) {
+    padding: 20px 30px;
+
+    .select {
+      width: 100px;
+      float: right;
+    }
+
+    .card {
+      font-weight: 300;
+    }
+  }
+
+  @media screen and (max-width: $screen-xs-max) {
+    padding: 20px 15px;
+  }
+
+  @include custom-select(#fff, 45px, #000, $brand-success, #000);
+
+}
+
+.announcements {
+  @media screen and (max-width: $screen-xs-max) {
+    .card {
+      margin-bottom: 30px;
+    }
   }
 }
 
@@ -159,4 +181,48 @@
     font-size: 25px;
   }
   
+}
+
+.pdf-links {
+  font-size: 16px;
+  font-weight: 300;
+
+  li {
+    line-height: 24px;
+    margin-bottom: 10px;
+
+    a {
+      @include custom-link($gray-dark);
+    }
+  }
+
+  .investors-content-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  h4 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.directions {
+
+  .card {
+    font-weight: 300;
+
+    &.card-violet {
+      background-color: #5e5e84;
+
+      a {
+        @include custom-link($brand-success)
+      }
+    }
+
+    h3 {
+      margin-top: 0;
+    }
+
+  }
 }
