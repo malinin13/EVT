@@ -78,8 +78,24 @@
 
             <div class="row">
                 <div class="col-md-12">
-                    <div id="investors-nav">
+
+                    <div id="investors-nav" class="hidden-xs">
                         <ul class="nav investors-scrollspy-ul" role="tablist">
+                            <li><a href="#news">News & calendar</a></li>
+                            <li><a href="#reports">reports</a></li>
+                            <li><a href="#directors">Directors</a></li>
+                            <li><a href="#benefits">shareholder benefits</a></li>
+                            <li><a href="#governance">Corporate governance</a></li>
+                            <li><a href="#environment">social & environment</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="dropdown section-margin visible-xs">
+                        <button class="btn btn-success btn-block dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            Navigation
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu investors-dropdown-nav-mobile" aria-labelledby="dropdownMenu1">
                             <li><a href="#news">News & calendar</a></li>
                             <li><a href="#reports">reports</a></li>
                             <li><a href="#directors">Directors</a></li>
@@ -587,7 +603,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.
                     </p>
 
-                    <a href="#" class="btn btn-success btn-lg">download shareholder brochure</a>
+                    <a href="#" class="btn btn-success btn-lg">download <span class="hidden-xs">shareholder</span> brochure</a>
                 </div>
             </div>
         </div>

@@ -8,17 +8,17 @@ footer {
     margin: 0;
 
     ul {
-      @media screen and (min-width: $screen-sm-min) {
+      @media screen and (min-width: $screen-md-min) {
         float: right;
       }
     }
   }
 
-  //a {
-  //  @include custom-link(#959595);
-  //}
-
-  @media screen and (max-width: $screen-xs-max) {
+  @media screen and (max-width: $screen-sm-max) {
     text-align: center;
+  }
+
+  @media screen and (max-width: $screen-md-max) {
+    font-size: 10px;
   }
 }

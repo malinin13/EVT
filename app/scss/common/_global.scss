@@ -68,5 +68,15 @@ p {
   a {
     display: block;
     padding: 30px 35px;
+
+    @media screen and (max-width: $screen-xs-max) {
+      padding: 20px;
+    }
+  }
+}
+
+.panel-body {
+  @media screen and (max-width: $screen-xs-max) {
+    padding: 20px;
   }
 }
