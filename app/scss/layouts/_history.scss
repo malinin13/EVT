@@ -1,7 +1,6 @@
 .history-content {
   background-size: cover;
   background-position: center;
-  color: #fff;
 
   .content-title {
     font-size: 35px;
@@ -13,12 +12,6 @@
   }
 
   h1 {
-    display: inline-block;
     font-weight: 300;
-
-    span {
-      display: block;
-      margin-top: 10px;
-    }
   }
 }

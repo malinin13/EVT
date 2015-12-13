@@ -38,4 +38,16 @@ $(document).ready(function () {
             window.location.hash = target;
         });
     });
+
 });
+
+//to prevent masonry height 0 when images are not loaded
+$(window).load(function () {
+    $('.brands-overview-container').masonry({
+        // options
+        itemSelector: '.item',
+        columnWidth: '.grid-sizer',
+        //gutter: '.gutter-sizer',
+        percentPosition: true
+    });
+})
