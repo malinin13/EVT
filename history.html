@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1.0">
+    <title>EVT</title>
+    <link rel="stylesheet" href="dist/style.css"/>
+    <script src="https://use.typekit.net/art7jmm.js"></script>
+    <script>try {
+        Typekit.load({async: true});
+    } catch (e) {
+    }</script>
+</head>
+<body>
+
+<div class="offcanvas-menu navbar navbar-default visible-xs">
+    <div class="offcanvas-body">
+        <ul class="list-unstyled navbar-nav nav">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">OUR BRANDS</a></li>
+            <li><a href="#">investors</a></li>
+            <li><a href="#">CAREERS</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </div>
+</div>
+
+<!--page contents should be wrapped in this class-->
+<div class="offcanvas-container">
+    <nav class="navbar navbar-default" id="main-nav">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed offcanvas-handler">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand visible-xs" href="#">
+                    <img src="dist/images/logo-mobile.svg" alt="logo"/>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">HOME</a></li>
+                    <li><a href="#">HISTORY</a></li>
+                    <li><a href="#">OUR BRANDS</a></li>
+                    <li><a href="#" class="logo-li hidden-xs hidden-sm"><img src="dist/images/Main_LOGO.svg" alt="logo"
+                                                                             style="width: 200px"/></a></li>
+                    <li><a href="#">investors</a></li>
+                    <li><a href="#">CAREERS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <section class="violet-bg content-section history-content"
+             style="background-image: url('dist/images/history-page/history-bg.png')">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1 class="content-title">our history
+                        <span class="divider"></span>
+                    </h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="history-vid"
+                                src="//player.vimeo.com/video/109662572?title=0&amp;byline=0&amp;portrait=0"
+                                width="100%" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen
+                                allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 section-margin">
+                    <p>
+                        In Australia the formative years of the 20th century, seven pioneers had a vision: to create a
+                        business dedicated to the art of moving pictures. In 1913 these visionary men joined forces to
+                        form Union Theatres, fostering the rapid development of the Australian cinema industry.
+                    </p>
+
+                    <p>
+                        In the 1930’s, Union Theatres evolved into Greater Union, and grew into an entertainment
+                        powerhouse that played a pivotal role in Australian exhibition, film production and
+                        distribution.
+                    </p>
+                </div>
+                <div class="col-sm-6 section-margin">
+                    <p>
+                        AHL (now Event Hospitality & Entertainment) is a proud Australian company with over 100 years of
+                        operation and an amazing example of how one entrepreneurial company parlayed its passion for the
+                        silver screen and its expertise in exhibition into various areas of entertainment, hospitality
+                        and
+                        leisure.
+                    </p>
+
+                    <p>
+                        Today, Event Cinemas is the flagship of Event Hospitality & Entertainment. The other businesses
+                        include Greater Union, Birch Carroll & Coyle, Cinestar, Rydges Hotels & Resorts, QT Hotels &
+                        Resorts, Thredbo Alpine Resort and Atura Hotels.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="list-inline">
+                        <li>©2015 Event hospitality & entertainment</li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li>|</li>
+                        <li><a href="#">disclaimer</a></li>
+                        <ul class="list-inline">
+                            <li><a href="#">478 GEORGE ST SYDNEY</a></li>
+                            <li>|</li>
+                            <li><a href="#">INFO@EVT.COM</a></li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<!--page contents should be wrapped in this class-->
+
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+<script src="bower_components/owl.carousel/dist/owl.carousel.min.js"></script>
+<script src="dist/js/offcanvas.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.owl-carousel').owlCarousel({
+            items: 1,
+            nav: true,
+            dots: true,
+            navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>']
+        })
+    })
+</script>
+</body>
+</html>
