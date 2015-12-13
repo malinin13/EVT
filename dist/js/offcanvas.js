@@ -10,7 +10,9 @@ $(document).ready(function () {
     });
 
     offcanvasContainer.click(function () {
-        offCanvasToggler();
+        if (body.hasClass('offcanvas-open')) {
+            offCanvasToggler();
+        }
     });
 
     function offCanvasToggler() {

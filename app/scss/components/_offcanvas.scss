@@ -33,9 +33,7 @@
     transition: .2s all ease;
 
     &.offcanvas-open {
-      transform: translate3d(-210px, 0, 0);
-      overflow: hidden;
-      position: fixed;
+      transform: translate3d(-200px, 0, 0);
 
     }
   }
