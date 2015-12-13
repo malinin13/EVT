@@ -37,6 +37,7 @@
     .item {
       overflow: hidden;
       padding: 5px;
+      transition: .2s all ease;
 
       &.item--width2 {
         width: 50%;
@@ -53,6 +54,11 @@
       a {
         text-decoration: none;
         @include custom-link(#fff);
+      }
+
+      &:hover {
+        backface-visibility: hidden;
+        transform: translateZ(0) scale(1.01);
       }
 
       img {
