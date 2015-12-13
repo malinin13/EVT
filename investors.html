@@ -12,7 +12,7 @@
     } catch (e) {
     }</script>
 </head>
-<body>
+<body data-spy="scroll" data-target="#investors-nav">
 
 <div class="offcanvas-menu navbar navbar-default visible-xs">
     <div class="offcanvas-body">
@@ -75,212 +75,235 @@
 
         <div class="row">
             <div class="col-md-12">
-                <ul class="nav investors-scrollspy-ul" role="tablist">
-                    <li class="active"><a href="#">News & calendar</a></li>
-                    <li><a href="#">reports</a></li>
-                    <li><a href="#">Directors</a></li>
-                    <li><a href="#">shareholder benefits</a></li>
-                    <li><a href="#">Corporate governance</a></li>
-                    <li><a href="#">social & environment</a></li>
-                </ul>
+                <div id="investors-nav">
+                    <ul class="nav investors-scrollspy-ul" role="tablist">
+                        <li><a href="#news">News & calendar</a></li>
+                        <li><a href="#reports">reports</a></li>
+                        <li><a href="#directors">Directors</a></li>
+                        <li><a href="#benefits">shareholder benefits</a></li>
+                        <li><a href="#governance">Corporate governance</a></li>
+                        <li><a href="#environment">social & environment</a></li>
+                    </ul>
+                </div>
+
             </div>
         </div>
 
-        <div class="row section-margin">
-            <div class="col-md-12">
-                <div class="white-bg investors-content-section">
-                    <ul class="list-inline investors-data">
-                        <li><h5>CODE: <span class="text-success">AHD.AX</span></h5></li>
-                        <li><h5>DATE: <span class="text-success">08 DEC 2015</span></h5></li>
-                        <li><h5>CLOSE: <span class="text-success">15.37</span></h5></li>
-                        <li><h5>MOVE: <span class="text-success">+0.03</span></h5></li>
-                    </ul>
+        <div id="news">
+            <div class="row section-margin">
+                <div class="col-md-12">
+                    <div class="white-bg investors-content-section">
+                        <ul class="list-inline investors-data">
+                            <li><h5>CODE: <span class="text-success">AHD.AX</span></h5></li>
+                            <li><h5>DATE: <span class="text-success">08 DEC 2015</span></h5></li>
+                            <li><h5>CLOSE: <span class="text-success">15.37</span></h5></li>
+                            <li><h5>MOVE: <span class="text-success">+0.03</span></h5></li>
+                        </ul>
 
-                    <h5 class="text-muted"><i>Source: Yahoo Finance</i></h5>
+                        <h5 class="text-muted"><i>Source: Yahoo Finance</i></h5>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <!--announcements-->
-        <div class="row section-margin announcements">
-            <div class="col-md-12">
-                <div class="white-bg investors-content-section">
+            <!--announcements-->
+            <div class="row section-margin announcements">
+                <div class="col-md-12">
+                    <div class="white-bg investors-content-section">
 
-                    <div class="row section-margin">
-                        <div class="col-md-12">
-                            <div class="select hidden-xs">
-                                <select name="" id="">
-                                    <option value="">2015</option>
-                                </select>
-                            </div>
-                            <h4 class="content-subtitle">LATEST ANNOUNCEMENTS</h4>
+                        <div class="row section-margin">
+                            <div class="col-md-12">
+                                <div class="select hidden-xs">
+                                    <select name="" id="">
+                                        <option value="">2015</option>
+                                    </select>
+                                </div>
+                                <h4 class="content-subtitle">LATEST ANNOUNCEMENTS</h4>
 
-                            <div class="select visible-xs">
-                                <select name="" id="">
-                                    <option value="">2015</option>
-                                </select>
-                            </div>
+                                <div class="select visible-xs">
+                                    <select name="" id="">
+                                        <option value="">2015</option>
+                                    </select>
+                                </div>
 
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="row section-margin">
-                        <div class="col-sm-4">
-                            <div class="card card-violet">
-                                <h5><i class="fa fa-calendar"></i> 7 December 2015</h5>
-                                <hr/>
-                                <p>
-                                    Proposed change of <br/>
-                                    company name
-                                </p>
+                        <div class="row section-margin">
+                            <div class="col-sm-4">
+                                <a href="#">
+                                    <div class="card card-violet">
+                                        <h5><i class="fa fa-calendar"></i> 7 December 2015</h5>
+                                        <hr/>
+                                        <p>
+                                            Proposed change of <br/>
+                                            company name
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-4">
+                                <a href="#">
+                                    <div class="card card-violet">
+                                        <h5><i class="fa fa-calendar"></i> 7 December 2015</h5>
+                                        <hr/>
+                                        <p>
+                                            Proposed change of <br/>
+                                            company name
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-4">
+                                <a href="#">
+                                    <div class="card card-violet">
+                                        <h5><i class="fa fa-calendar"></i> 7 December 2015</h5>
+                                        <hr/>
+                                        <p>
+                                            Proposed change of <br/>
+                                            company name
+                                        </p>
+                                    </div>
+                                </a>
                             </div>
                         </div>
-                        <div class="col-sm-4">
-                            <div class="card card-violet">
-                                <h5><i class="fa fa-calendar"></i> 7 December 2015</h5>
-                                <hr/>
-                                <p>
-                                    Proposed change of <br/>
-                                    company name
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="card card-violet">
-                                <h5><i class="fa fa-calendar"></i> 7 December 2015</h5>
-                                <hr/>
-                                <p>
-                                    Proposed change of <br/>
-                                    company name
-                                </p>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="row section-margin">
-                        <div class="col-sm-4">
-                            <div class="card card-violet">
-                                <h5><i class="fa fa-calendar"></i> 7 December 2015</h5>
-                                <hr/>
-                                <p>
-                                    Proposed change of <br/>
-                                    company name
-                                </p>
+                        <div class="row section-margin">
+                            <div class="col-sm-4">
+                                <a href="#">
+                                    <div class="card card-violet">
+                                        <h5><i class="fa fa-calendar"></i> 7 December 2015</h5>
+                                        <hr/>
+                                        <p>
+                                            Proposed change of <br/>
+                                            company name
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-4">
+                                <a href="#">
+                                    <div class="card card-violet">
+                                        <h5><i class="fa fa-calendar"></i> 7 December 2015</h5>
+                                        <hr/>
+                                        <p>
+                                            Proposed change of <br/>
+                                            company name
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-4">
+                                <a href="#">
+                                    <div class="card card-violet">
+                                        <h5><i class="fa fa-calendar"></i> 7 December 2015</h5>
+                                        <hr/>
+                                        <p>
+                                            Proposed change of <br/>
+                                            company name
+                                        </p>
+                                    </div>
+                                </a>
                             </div>
                         </div>
-                        <div class="col-sm-4">
-                            <div class="card card-violet">
-                                <h5><i class="fa fa-calendar"></i> 7 December 2015</h5>
-                                <hr/>
-                                <p>
-                                    Proposed change of <br/>
-                                    company name
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="card card-violet">
-                                <h5><i class="fa fa-calendar"></i> 7 December 2015</h5>
-                                <hr/>
-                                <p>
-                                    Proposed change of <br/>
-                                    company name
-                                </p>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="row section-margin">
-                        <div class="col-sm-4">
-                            <div class="card card-violet">
-                                <h5><i class="fa fa-calendar"></i> 7 December 2015</h5>
-                                <hr/>
-                                <p>
-                                    Proposed change of <br/>
-                                    company name
-                                </p>
+                        <div class="row section-margin">
+                            <div class="col-sm-4">
+                                <a href="#">
+                                    <div class="card card-violet">
+                                        <h5><i class="fa fa-calendar"></i> 7 December 2015</h5>
+                                        <hr/>
+                                        <p>
+                                            Proposed change of <br/>
+                                            company name
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-4">
+                                <a href="#">
+                                    <div class="card card-violet">
+                                        <h5><i class="fa fa-calendar"></i> 7 December 2015</h5>
+                                        <hr/>
+                                        <p>
+                                            Proposed change of <br/>
+                                            company name
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-sm-4">
+                                <a href="#">
+                                    <div class="card card-violet">
+                                        <h5><i class="fa fa-calendar"></i> 7 December 2015</h5>
+                                        <hr/>
+                                        <p>
+                                            Proposed change of <br/>
+                                            company name
+                                        </p>
+                                    </div>
+                                </a>
                             </div>
                         </div>
-                        <div class="col-sm-4">
-                            <div class="card card-violet">
-                                <h5><i class="fa fa-calendar"></i> 7 December 2015</h5>
-                                <hr/>
-                                <p>
-                                    Proposed change of <br/>
-                                    company name
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="card card-violet">
-                                <h5><i class="fa fa-calendar"></i> 7 December 2015</h5>
-                                <hr/>
-                                <p>
-                                    Proposed change of <br/>
-                                    company name
-                                </p>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="row section-margin">
-                        <div class="col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
-                            <div class="row">
-                                <div class="col-sm-6 col-sm-offset-3">
-                                    <a href="#" class="btn btn-success btn-lg btn-block">load more</a>
+                        <div class="row section-margin">
+                            <div class="col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
+                                <div class="row">
+                                    <div class="col-sm-6 col-sm-offset-3">
+                                        <a href="#" class="btn btn-success btn-lg btn-block">load more</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+
+                        <div class="row section-margin">
+                            <div class="col-md-12">
+                                <div class="divider"></div>
+                            </div>
+                        </div>
+
+                        <!-- evenets-->
+                        <div class="row section-margin">
+                            <div class="col-md-12">
+                                <h3 class="content-subtitle">UPCOMING EVENTS</h3>
+                            </div>
+                        </div>
+
+                        <div class="row upcoming-events">
+                            <div class="col-sm-4 text-violet">
+                                <p><b><i class="fa fa-calendar"></i> 16 December 2015</b></p>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                    do eiusmod tempor incidd.
+                                </p>
+                            </div>
+                            <div class="col-sm-4 text-violet">
+                                <p><b><i class="fa fa-calendar"></i> 16 December 2015</b></p>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                    do eiusmod tempor incidd.
+                                </p>
+                            </div>
+                            <div class="col-sm-4 text-violet">
+                                <p><b><i class="fa fa-calendar"></i> 16 December 2015</b></p>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                    do eiusmod tempor incidd.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- evenets-->
+
                     </div>
-
-                    <div class="row section-margin">
-                        <div class="col-md-12">
-                            <div class="divider"></div>
-                        </div>
-                    </div>
-
-                    <!-- evenets-->
-                    <div class="row section-margin">
-                        <div class="col-md-12">
-                            <h3 class="content-subtitle">UPCOMING EVENTS</h3>
-                        </div>
-                    </div>
-
-                    <div class="row upcoming-events">
-                        <div class="col-sm-4 text-violet">
-                            <p><b><i class="fa fa-calendar"></i> 16 December 2015</b></p>
-
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                do eiusmod tempor incidd.
-                            </p>
-                        </div>
-                        <div class="col-sm-4 text-violet">
-                            <p><b><i class="fa fa-calendar"></i> 16 December 2015</b></p>
-
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                do eiusmod tempor incidd.
-                            </p>
-                        </div>
-                        <div class="col-sm-4 text-violet">
-                            <p><b><i class="fa fa-calendar"></i> 16 December 2015</b></p>
-
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                do eiusmod tempor incidd.
-                            </p>
-                        </div>
-                    </div>
-                    <!-- evenets-->
-
                 </div>
             </div>
+            <!--announcements-->
         </div>
-        <!--announcements-->
 
         <!--reports-->
-        <div class="row section-margin reports-section">
+        <div class="row section-margin reports-section" id="reports">
             <div class="col-md-12">
                 <div class="investors-content-section gray-bg-darker">
 
@@ -348,16 +371,18 @@
         </div>
         <!--reports-->
 
-        <!--directions-->
-        <div class="row directions">
+        <!--directors-->
+        <div class="row directors" id="directors">
             <div class="col-md-12">
                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-default accordion">
                         <div class="panel-heading" role="tab" id="headingOne">
                             <h4 class="panel-title">
-                                <i class="fa fa-caret-down pull-right"></i>
                                 <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    VIEW OUR BOARD OF DIRECTORS
+                                    <span>VIEW OUR BOARD OF DIRECTORS</span>
+
+                                    <i class="fa fa-caret-down pull-right"></i>
+
                                 </a>
                             </h4>
                         </div>
@@ -528,14 +553,15 @@
                 </div>
             </div>
         </div>
-        <!--directions-->
+        <!--directors-->
 
     </div>
 </section>
 
 <!--benefits-->
 <section class="benefits-section"
-         style="background-image: url('dist/images/investors-page/benefits-bg.png')">
+         style="background-image: url('dist/images/investors-page/benefits-bg.png')"
+        id="benefits">
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
@@ -569,7 +595,7 @@
 <section class="content-section pdf-links">
     <div class="container">
 
-        <div class="row section-margin">
+        <div class="row section-margin" id="governance">
             <div class="col-md-12">
                 <div class="row">
                     <div class="col-md-12">
@@ -651,7 +677,7 @@
             </div>
         </div>
 
-        <div class="row section-margin">
+        <div class="row section-margin" id="environment">
             <div class="col-md-12">
                 <div class="row">
                     <div class="col-md-12">
@@ -784,27 +810,8 @@
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
 <script src="bower_components/owl.carousel/dist/owl.carousel.min.js"></script>
+<script src="bower_components/sticky-kit/jquery.sticky-kit.min.js"></script>
 <script src="dist/js/offcanvas.js"></script>
-<script>
-    $(document).ready(function () {
-        $('.owl-carousel').owlCarousel({
-            items: 1,
-            nav: true,
-            dots: true,
-            navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>']
-        })
-    })
-
-    //toggling plus/minus icons
-    var accordion = $('.accordion .panel-collapse');
-
-    accordion.on('shown.bs.collapse', function () {
-        $(this).prev().find(".fa").removeClass("fa-caret-down").addClass("fa-caret-up");
-    });
-
-    accordion.on('hidden.bs.collapse', function () {
-        $(this).prev().find(".fa").removeClass("fa-caret-up").addClass("fa-caret-down");
-    });
-</script>
+<script src="dist/js/main.js"></script>
 </body>
 </html>

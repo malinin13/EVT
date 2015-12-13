@@ -17,4 +17,8 @@ footer {
   //a {
   //  @include custom-link(#959595);
   //}
+
+  @media screen and (max-width: $screen-xs-max) {
+    text-align: center;
+  }
 }

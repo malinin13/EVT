@@ -3,6 +3,16 @@
   text-align: center;
   letter-spacing: 2px;
   text-transform: uppercase;
+  background-color: $body-bg;
+  bottom: auto!important;
+  z-index: 100;
+
+  &.is_stuck {
+    position: fixed!important;
+    top: 0!important;
+    margin: 0;
+    padding: 10px 0;
+  }
 
   li {
     display: inline-block;
@@ -57,6 +67,9 @@
 }
 
 .announcements {
+  a {
+    text-decoration: none;
+  }
   @media screen and (max-width: $screen-xs-max) {
     .card {
       margin-bottom: 30px;
@@ -170,6 +183,7 @@
   background-size: cover;
   color: #fff;
   padding: 90px 0 70px;
+  background-color: $brand-violet;
 
   p {
     font-size: 14px;
@@ -207,7 +221,7 @@
   }
 }
 
-.directions {
+.directors {
 
   .card {
     font-weight: 300;
