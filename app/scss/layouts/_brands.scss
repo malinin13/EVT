@@ -35,9 +35,10 @@
     }
 
     .item {
-      overflow: hidden;
+      //overflow: hidden;
       padding: 5px;
       transition: .2s all ease;
+      //border: 5px solid $body-bg;
 
       &.item--width2 {
         width: 50%;
@@ -54,15 +55,23 @@
       a {
         text-decoration: none;
         @include custom-link(#fff);
+
+        display: block;
+        width: 100%;
+        overflow: hidden;
+        height: 100%;
       }
 
       &:hover {
-        backface-visibility: hidden;
-        transform: translateZ(0) scale(1.01);
+        img {
+          backface-visibility: hidden;
+          transform: translateZ(0) scale(1.01);
+        }
       }
 
       img {
         width: 100%;
+        transition: .2s all ease;
       }
 
     }
