@@ -43,11 +43,11 @@ p {
 
 @media screen and (min-width: $screen-md-min) {
   .no-p-r-sm-up {
-    padding-right: 0!important;
+    padding-right: 0 !important;
   }
 
   .no-p-l-sm-up {
-    padding-left: 0!important;
+    padding-left: 0 !important;
   }
 }
 
@@ -56,7 +56,7 @@ p {
 }
 
 .text-violet {
-  color: $brand-text-violet!important;
+  color: $brand-text-violet !important;
 }
 
 .form-control {
@@ -83,5 +83,29 @@ p {
 .panel-body {
   @media screen and (max-width: $screen-xs-max) {
     padding: 20px;
+  }
+}
+
+.title-underlined {
+  position: relative;
+  display: inline-block;
+
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: $brand-orange;
+    transition: .2s all ease;
+  }
+
+  &.hover-effect {
+    &:hover {
+      &:after {
+        width: 120%;
+      }
+    }
   }
 }

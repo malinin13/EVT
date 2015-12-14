@@ -36,7 +36,7 @@
 
     .item {
       //overflow: hidden;
-      padding: 5px;
+      padding: 2.5px;
       transition: .2s all ease;
       //border: 5px solid $body-bg;
 
@@ -78,11 +78,12 @@
 
     .item-text {
       position: absolute;
-      bottom: 5px;
-      left: 5px;
+      bottom: 2.5px;
+      left: 2.5px;
       padding: 20px;
       font-size: 19px;
       line-height: 24px;
+      text-align: left;
 
       .title-underlined {
         margin: 0;
