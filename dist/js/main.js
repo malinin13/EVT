@@ -25,6 +25,7 @@ $(document).ready(function () {
     });
 
     $('.investors-scrollspy-ul').stick_in_parent();
+    $('.investors-dropdown-nav-mobile').stick_in_parent();
 
     $('a[href^="#"]').on('click',function (e) {
         e.preventDefault();

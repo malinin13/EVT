@@ -50,6 +50,18 @@
 
 .investors-dropdown-nav-mobile {
   text-transform: uppercase;
+
+  &.is_stuck {
+    position: fixed!important;
+    z-index: 10;
+    top: 0 !important;
+
+    .dropdown-menu {
+      position: fixed;
+      top: 33px;
+      left: 15px!important;
+    }
+  }
 }
 
 .investors-content-section {
@@ -95,6 +107,16 @@
 
   li {
     margin-right: 20px;
+  }
+  
+  @media screen and (max-width: $screen-xs-max) {
+    @include clearfix();
+
+    li {
+      width: 50%;
+      float: left;
+      margin: 0;
+    }
   }
 
   @media screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
